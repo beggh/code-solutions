@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   string s1, s2;
+	cin>>s1>>s2;
+  int m = 1e5+7;
+  long long int x = stoll(s1,nullptr,10);
+  long long int y = stoll(s2,nullptr,10);
+  long long int z= x+y;
+  cout << to_string(z);
+  return 0;
+}
